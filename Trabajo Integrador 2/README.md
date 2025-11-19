@@ -29,18 +29,27 @@ CamRestore es una aplicación enfocada en la mejora de imágenes provenientes de
 2. Instala las dependencias: `pip install -r requirements.txt`
 3. Ejecuta la app: `streamlit run app.py`
 
-## Despliegue en Hugging Face Spaces
+🌐 Despliegue en Hugging Face Spaces
+1. Crear Space (tipo Streamlit)
+2. Subir:
 
-La app está configurada para desplegarse en Hugging Face Spaces. Sube los archivos `app.py` y `requirements.txt` a un Space con SDK Streamlit.
+app.py
+
+requirements.txt
+
+README.md
+
+carpeta assets/ (opcional)
+
+Hugging Face instalará todo automáticamente.
+
+Enlace del Space:
+👉https://huggingface.co/spaces/KatherineML/CamRestore
 
 ## Requisitos
 
 - Python 3.10+
 - GPU recomendada para mejor rendimiento (soporta CPU).
-
-
-
-
 
 
 
@@ -79,32 +88,6 @@ Real-ESRGAN / RRDBNet – super-resolución
 NumPy / Pillow – procesamiento de imágenes
 
 Torch – backend para modelos
-
-🧩 Instalación
-1. Clonar repositorio
-
-2. Crear entorno virtual
-python -m venv venv
-
-3. Activar entorno
-
-Windows PowerShell
-
-venv\Scripts\activate
-
-
-Linux / macOS
-
-source venv/bin/activate
-
-4. Instalar dependencias
-pip install -r requirements.txt
-
-▶️ Ejecución
-python -m streamlit run app.py
-
-
-Streamlit abrirá la aplicación en tu navegador.
 
 🧪 Resultados Clave
 
@@ -166,22 +149,6 @@ Método: FastNlMeansDenoisingColored
 
 ❗ GFPGAN y Real-ESRGAN se descargan desde Internet la primera vez (puede demorar)
 
-🌐 Despliegue en Hugging Face Spaces
-1. Crear Space (tipo Streamlit)
-2. Subir:
-
-app.py
-
-requirements.txt
-
-README.md
-
-carpeta assets/ (opcional)
-
-Hugging Face instalará todo automáticamente.
-
-Enlace del Space:
-👉https://huggingface.co/spaces/KatherineML/CamRestore
 
 
 
