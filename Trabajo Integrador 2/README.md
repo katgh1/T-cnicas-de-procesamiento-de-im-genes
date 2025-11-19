@@ -89,6 +89,10 @@ NumPy / Pillow – procesamiento de imágenes
 
 Torch – backend para modelos
 
+CLIP - para clasificación de calidad de imagen.
+
+DETR - para detección de objetos.
+
 🧪 Resultados Clave
 
 Aunque no es un modelo entrenado por nosotros, el pipeline ofrece:
