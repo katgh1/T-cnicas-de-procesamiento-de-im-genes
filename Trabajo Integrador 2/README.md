@@ -3,50 +3,6 @@
 
 CamRestore es una aplicación enfocada en la mejora de imágenes provenientes de cámaras de seguridad, utilizando técnicas de visión por computadora y modelos de IA para recuperar detalles, mejorar rostros y aumentar la resolución.
 
-## Características
-
-- **Subida de imágenes**: Soporta formatos JPG, JPEG y PNG.
-- **Procesamiento configurable**: Opciones para aplicar reducción de ruido, restauración de rostros y super-resolución.
-- **Modelos utilizados**:
-  - OpenCV para reducción de ruido.
-  - GFPGAN para restauración de rostros.
-  - Real-ESRGAN para super-resolución (2x).
-- **Interfaz intuitiva**: Barra lateral para opciones, barra de progreso y comparación lado a lado.
-- **Descarga**: Permite descargar la imagen procesada.
-
-## Cómo ejecutar localmente
-
-1. Clona este repositorio.
-2. Instala las dependencias: `pip install -r requirements.txt`
-3. Ejecuta la app: `streamlit run app.py`
-
-## Despliegue en Hugging Face Spaces
-
-La app está configurada para desplegarse en Hugging Face Spaces. Sube los archivos `app.py` y `requirements.txt` a un Space con SDK Streamlit.
-
-## Requisitos
-
-- Python 3.10+
-- GPU recomendada para mejor rendimiento (soporta CPU).
-
-
-
-📌 CamRestore – Mejora de Imágenes para Cámaras de Seguridad
-
-Licencia: MIT
-
-
-
-
-
-
-
-
-
-🎯 Objetivo del Proyecto
-
-Problema: Las imágenes de cámaras de seguridad suelen tener ruido, baja resolución y rostros degradados, lo que complica la identificación.
-Solución: Este sistema genera una imagen mejorada, de mayor resolución y rostros restaurados, combinando técnicas modernas de restauración y super-resolución.
 
 🧠 Características Principales
 
@@ -65,6 +21,29 @@ Solución: Este sistema genera una imagen mejorada, de mayor resolución y rostr
 ✔ Descarga de la imagen final
 
 ✔ Carga de modelos desde URLs (sin archivos pesados en repo)
+
+
+## Cómo ejecutar localmente
+
+1. Clona este repositorio.
+2. Instala las dependencias: `pip install -r requirements.txt`
+3. Ejecuta la app: `streamlit run app.py`
+
+## Despliegue en Hugging Face Spaces
+
+La app está configurada para desplegarse en Hugging Face Spaces. Sube los archivos `app.py` y `requirements.txt` a un Space con SDK Streamlit.
+
+## Requisitos
+
+- Python 3.10+
+- GPU recomendada para mejor rendimiento (soporta CPU).
+
+
+
+
+
+
+
 
 🏗️ Arquitectura del Sistema (Diagrama Simple)
                   ┌──────────────────┐
@@ -103,8 +82,6 @@ Torch – backend para modelos
 
 🧩 Instalación
 1. Clonar repositorio
-git clone https://github.com/tu-usuario/camrestore.git
-cd camrestore
 
 2. Crear entorno virtual
 python -m venv venv
@@ -129,7 +106,7 @@ python -m streamlit run app.py
 
 Streamlit abrirá la aplicación en tu navegador.
 
-🧪 Métricas / Resultados Clave
+🧪 Resultados Clave
 
 Aunque no es un modelo entrenado por nosotros, el pipeline ofrece:
 
@@ -143,7 +120,8 @@ Aunque no es un modelo entrenado por nosotros, el pipeline ofrece:
 
 📸 Capturas del Sistema
 
-(Coloca aquí tus imágenes. Ejemplo:)
+<img width="1879" height="899" alt="f" src="https://github.com/user-attachments/assets/78b41574-91ad-417b-9f63-da40a86f87fa" />
+
 
 📁 assets/
    ├── interfaz_1.png
